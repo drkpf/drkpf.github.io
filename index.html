@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#e60005">
+
+    <meta charset="utf-8">
+    <title>DRK Pforzheim Enzkreis SWB-KV-HE</title>
+    <meta name="description" 
+          content="SWB Anzeigeseite für den Haupteingang">
+    <link href="design.css" rel="stylesheet">
+</head>
+
+<body>
+<header>
+    <img style="width: 100%; height: auto;" src="DRK_Logo3.svg" align="right"></img>
+</header>
+
+<nav id="raumzuteilung">
+  <table id="raum_tabelle">
+    <tbody>
+    <tr><td><h4>EG</h4></td></tr>
+		    <tr><td>Saal 1</td><td></td><td></td><td></td></tr>
+		    <tr><td>ServiceCenter</td><td>Frau Hermann</td><td>Frau Lorenz</td><td>Frau Leskovic</td></tr>
+	  <tr><td><h4>1. OG</h4></td></tr> 
+        <tr><td>101</td><td>Saal 2</td><td></td><td></td></tr>
+        <tr><td>102</td><td>Saal 3</td><td></td><td></td></tr>
+	  <tr><td><h4>2. OG</h4></td></tr> 
+        <tr><td>201</td><td>Frau Schneider</td><td></td><td></td></tr>
+        <tr><td>203</td><td>Frau Gotthardt</td><td></td><td></td></tr>
+        <tr><td>204</td><td>Herr Uibel</td><td>Herr Eppinger</td><td>Herr Michalek</td></tr>
+        <tr><td>206</td><td>Herr Schüler</td><td>Frau Seidel</td><td></td></tr>
+		    <tr><td>208</td><td>Besprechungsraum</td><td></td><td></td></tr>
+        <tr><td>209</td><td>Frau Bernwald</td><td>Frau Scheible</td><td></td></tr>
+        <tr><td>210</td><td>Herr Storz</td><td></td><td></td></tr>
+        <tr><td>211</td><td>Frau Bauer</td><td>Herr Olpp</td><td></td></tr>
+        <tr><td>212</td><td>Herr Jambor</td><td>Herr Müller</td><td></td></tr>
+        <tr><td>213</td><td>Betriebsrat</td><td></td><td></td></tr>
+        <tr><td>218</td><td>Frau Brüstle-Ziegler</td><td></td><td></td></tr>
+        <tr><td>220</td><td>Herr Miersch</td><td>Herr Faißt</td><td></td></tr> 
+    <tr><td><h4>3. OG</h4></td></tr>      
+        <tr><td>301</td><td>Herr Irion</td><td></td><td></td></tr>
+        <tr><td>303</td><td>Besprechungsraum</td><td></td><td></td></tr>
+        <tr><td>307</td><td>Frau Ibrahimovic</td><td></td><td></td></tr>
+        <tr><td>309</td><td>Herr Misztl</td><td>Herr Maier</td><td></td></tr>
+        <tr><td>310</td><td>Herr Wochele</td><td></td><td></td></tr>
+        <tr><td>311</td><td>Frau Miersch</td><td>Frau Brenner</td><td></td></tr>
+        <tr><td>312</td><td>Frau Bergschicker</td><td>Frau Elsinger</td><td>Frau Dreßler</td></tr>
+        <tr><td>313</td><td>Frau Kübler</td><td>Herr Mann</td><td></td></tr>
+        <tr><td>315</td><td>Frau Hamm</td><td>Frau Holzmeier</td><td></td></tr>
+        <tr><td>320</td><td>Frau Hagel</td><td>Frau Nauck</td><td></td></tr>    
+    </tbody>
+  </table>
+</nav>
+
+<video_section>
+  <video id="videoPlayer" autoplay muted loop width="100%" style="border-style:none; padding:0px; margin:0px">
+    <source src="movie2.mp4" type="video/mp4">
+    Ihr Browser unterstützt das Video-Tag nicht.
+  </video>
+   
+<footer>
+  <p>© DRK Kreisverband Pforzheim Enzkreis&nbsp;&#160</p>
+</footer>
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('service-worker.js')
+        .then(function(registration) {
+          console.log('Service Worker registered with scope:', registration.scope);
+        }).catch(function(error) {
+          console.log('Service Worker registration failed:', error);
+        });
+    }
+  </script>
+</body>
+</html>

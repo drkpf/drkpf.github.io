@@ -1,0 +1,52 @@
+html {
+    background-color: #FFFFFF;
+	color : #000000
+}
+
+
+header, nav, footer, aside, video_section {
+    display: block;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", "Open Sans",Arial, Helvetica, "Lucida Grande", sans-serif;
+}
+
+header {
+    background-color: #002d55;
+}
+
+p {
+	color : #FFFFFF;
+	
+}
+
+#DRKSymbol {
+    background-color: #FFFFFF;
+	float: right;
+    }
+
+#raumzuteilung {
+    background-color: #FFFFFF;
+	width: 33%;
+	float: left;
+}
+
+video_section{
+    background-color: #FFFFFF;
+    margin-left: 33%;
+}
+
+
+footer {
+    background-color: brown;
+    text-align: right;
+}
+
+#raum_tabelle {
+    width: 100%;
+    border-collapse: collapse;
+    padding: 20px;
+    text-align: left;
+}
+
+h4 {
+    line-height: 0%;
+}

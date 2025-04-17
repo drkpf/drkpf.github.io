@@ -1,0 +1,16 @@
+{
+  "name": "DRK Info App",
+  "short_name": "DRK App",
+  "start_url": "./index.htm",
+  "display": "fullscreen",
+  "background_color": "#ffffff",
+  "theme_color": "#b50000",
+  "icons": [
+    {
+      "src": "DRK_Logo3.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
