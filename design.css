@@ -25,13 +25,13 @@ p {
 
 #raumzuteilung {
     background-color: #FFFFFF;
-	width: 47.75%;
+	width: 40%;
 	float: left;
 }
 
 video_section{
     background-color: #FFFFFF;
-    margin-left: 47.75%;
+    margin-left: 40%;
 }
 
 
@@ -46,6 +46,7 @@ footer {
     padding: 20px;
     text-align: left;
 	font-size: 8px;
+	margin: 10px;
 }
 
 h4 {
